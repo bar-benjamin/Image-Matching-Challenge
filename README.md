@@ -1,21 +1,3 @@
-# Model.pkl
-
-`model.pkl` was too heavy to submit into the 'Sheilta'.
-When notebook is run, it automatically generates the `model.pkl` file into
-the current working directory. I also uploaded the `model.pkl` to Google Drive:
-https://drive.google.com/file/d/1WpBedW2JtIQQepaRNfV0lZm2SPnhLWhm/view?usp=sharing
-
-## How to unpickle model:
-
-```
-def load_model():
-    with open(f'model.pkl', 'rb') as f:
-        loaded_model = pickle.load(f)
-        loaded_model.get_structure()
-load_model()
-```
-
-
 # How to run notebook
 
 1. **Create a Virtual Environment**:
