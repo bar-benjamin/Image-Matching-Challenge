@@ -1,0 +1,13 @@
+numpy
+pandas
+opencv-python
+tqdm
+torch
+matplotlib
+timm
+einops
+kornia # used only for setting up LoFTR (dependency), no usage in code
+yacs
+gdown
+jupyter
+pytorch-lightning
